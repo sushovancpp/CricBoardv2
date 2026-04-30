@@ -60,8 +60,7 @@ function PageHeader({ subtitle, conn, totalOvers, isLive }) {
         
           href="/admin"
           title="Admin Login"
-          className="flex items-center gap-1 bg-pitch-800 hover:bg-pitch-700 text-pitch-400 hover:text-white border border-pitch-600 hover:border-pitch-500 text-[10px] font-bold px-2.5 py-1.5 rounded-lg transition-all uppercase tracking-wide"
-        >
+className={`flex items-center gap-1 bg-pitch-800 hover:bg-pitch-700 text-pitch-400 hover:text-white border border-pitch-600 hover:border-pitch-500 text-[10px] font-bold px-2.5 py-1.5 rounded-lg transition-all uppercase tracking-wide`}
           <span>👤</span>
           <span className="hidden sm:inline">Admin</span>
         </a>
